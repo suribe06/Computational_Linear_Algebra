@@ -20,7 +20,7 @@ def gram_schmidt(B, n):
         E.append(ui)
     return E
 
-B = [[1,0,0,-1], [1,2,0,-1], [3,1,1,-1]]
+B = [[1,-1,0,1], [1,1,0,1], [0,-1,-1,2]]
 n = len(B)
 E = gram_schmidt(B, n)
 print(E)

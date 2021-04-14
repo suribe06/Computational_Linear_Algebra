@@ -19,4 +19,3 @@ function x = Newton_n_variables(F, x0, orden, nmax)
     end
     fprint('El metodo fracaso despues de %f iteraciones', k)
 end
-
